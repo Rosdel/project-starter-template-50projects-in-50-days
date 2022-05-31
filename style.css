@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Koulen&family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Oleo+Script+Swash+Caps:wght@400;700&family=Roboto:wght@100;500;900&display=swap');
+
+*{                                   /*universal selector*/
+    box-sizing: border-box;        /*---if u add padding to an element it 
+                                   doesn't actually affect the width of it--*/
+}
+body{
+    font-family: 'Robot',sans-serif;
+    display: flex;                /*  this alligns everything horizally*/
+    flex-direction: column;  /*this counter balance the alignment to be vertically*/
+    margin: 0;
+    align-items: center;          /*   align items in the centre*/
+    justify-content: center;     
+    height: 100vh;             /*this allows the flex to take up the whole height*/
+    overflow: hidden;          /*this will not allow the scroll bar to be seen by default*/
+}
